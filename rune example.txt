@@ -1,0 +1,32 @@
+sub_hpp: 4
+set: Energy
+grade: 5
+sub_hpf: 5
+sub_acc: 18
+i_v: 0
+i_t:
+id: 418
+sub_atkf: -
+slot: 1
+sub_crate: -
+sub_spd: -
+s2_v: 4
+s2_t: HP%
+s4_t:
+s4_v: 0
+monster: 9
+s1_v: 18
+s3_v: 6
+sub_atkp: -
+sub_res: 6
+locked: 0
+level: 9
+sub_deff: -
+monster_n: Shannon
+sub_cdmg: -
+s3_t: RES
+unique_id: 10865119634
+s1_t: ACC
+m_v: 78
+sub_defp: -
+m_t: ATK flat
