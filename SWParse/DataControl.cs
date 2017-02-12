@@ -87,7 +87,23 @@ namespace SWParse
             if (RuneList.Count <= 0)
                 return runeset;
 
+            return runeset;
+        }
 
+        public List<SWData.Rune> SortedRuneList(List<SWData.Rune> RuneList)
+        {
+            List<SWData.Rune> sortset = new List<SWData.Rune>();
+            if (RuneList.Count > 0)
+            {
+                SWData.Rune tempRune = new SWData.Rune();
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 1));
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 2));
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 3));
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 4));
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 5));
+                sortset.Add(RuneList.FirstOrDefault(x => x.slot == 6));
+            }
+            return sortset;
         }
     }
 
